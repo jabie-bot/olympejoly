@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+  .portfolio-item:hover .caption {
+    background-color: rgba(29,128,159,.9);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+}
+
+/* Style pour les boutons personnalisés */
+
+.custom-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Style lorsque le bouton est survolé */
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
